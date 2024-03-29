@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Provis</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<link
+  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  rel="stylesheet"
+/>
+
+<!-- fonts famaily -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+  rel="stylesheet"
+/>
+
+<!-- <link rel="stylesheet" type="text/css" href="index.css" /> -->
+</head>
+
+<body>
+<!--Header section start-->
+<header>
+<div class="container">
+<div class="row">
+  <div class="col-md-12 col-sm-12 col-lg-12 col-xl-2">
+    <div class="logo">
+      <a href="#" title="logo">Ship<span style="color: #f67366; font-size: 24px; font-weight: 900; line-height: 28.8px; text-align: left;">UP</span></a>
+    </div>
+    <div class="mob-menu">
+      <span><i class="fa fa-bars"></i></span>
+    </div>
+  </div>
+  <div class="col-md-12 col-sm-12 col-lg-12 col-xl-10">
+    <div class="main-menu">
+      <ul class="nav">
+        <li>
+          <a href="#"> Company <i class="fa fa-angle-down pt-1"></i></a>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Vision</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </li>
+        <li><a href="#"> Service </a></li>
+        <li><a href="#"> Solutions </a></li>
+        <li><a href="#"> Industries </a></li>
+        <li><a href="#"> Insights </a></li>
+        <li><a href="#"> News And Media </a></li>
+      </ul>
+      <ul class="right-nav">
+        <li><a href="#"> Request Quote </a></li>
+        <li class="active"><a href="#"> Join Now </a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+</header>
+<!--Header section End-->
+
+<!-- Indroduction Section start -->
+<section class="about-section">
+  <div class="container">
+    <div class="row d-flex">
+      <!-- Image Column -->
+      <div class="image-column col-lg-6 col-md-12 col-sm-12">
+        <div class="inner-column wow fadeInLeft">
+          <figure class="image-1">
+            <a href="#" class="lightbox-image" data-fancybox="images">
+              <img title="image" src="intro.png" alt=""
+            /></a>
+          </figure>
+        </div>
+      </div>
+
+      <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
+<div class="inner-column">
+    <div class="sec-title">
+        <h2>
+            Quick & Reliable
+            <span style="font-size: 35px; font-weight: 700; line-height: 72px; text-align: left; color: #f67366;">Warehousing And Logistics</span>
+            Solution.
+        </h2>
+    </div>
+    <div class="text">
+        ShipUp delivers an unparalleled customer service through dedicated customer teams, engaged people working in an agile culture, and a global footprint
+    </div>
+
+    <div class="btn-box">
+        <a href="#" class="theme-btn btn-style-one">Join Now</a>
+        <a href="#" class="theme-btn btn-style-two">
+            <i class="fa fa-video-camera" style="font-size: 24px; color: #2c2d5b;"></i>
+        </a>
+        <!-- Add id "playVideo" to trigger the popup -->
+        <a href="#" class="theme-btn btn-style-three" id="playVideo">Play Video</a>
+    </div>
+</div>
+      </div>
+
+<!-- SweetAlert2 JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+document.getElementById('playVideo').addEventListener('click', function() {
+    Swal.fire({
+        title: 'Video Message',
+        text: 'Your video message here.',
+        icon: 'info',
+        confirmButtonText: 'OK'
+    });
+});
+</script>
+    </div>
+  </div>
+</section>
+<!-- Indroduction Section end -->
+
+<!-- Form Section start -->
+<div class="form-section">
+  <div class="container">
+    <form class="form-inline">
+      <fieldset>
+        <legend>Origin</legend>
+        <i class="fa fa-map-marker"></i
+        ><input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Enter Location"
+        />
+      </fieldset>
+
+      <fieldset>
+        <legend>Destination</legend>
+        <i class="fa fa-map-marker"></i
+        ><input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Enter Location"
+        />
+      </fieldset>
+
+      <fieldset>
+        <legend>Weight</legend>
+        <i class="fa fa-balance-scale"></i
+        ><input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder=" Weight(KGO)"
+        />
+      </fieldset>
+
+      <button type="submit" class="btn btn-primary">Check Price</button>
+    </form>
+  </div>
+</div>
+<!-- Form Section end -->
+
+<!--Footer section start-->
+<footer class="mainfooter" role="contentinfo">
+  <div class="footer-middle">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <!--Column1-->
+          <div class="footer-padd">
+            <h1>
+              <span style="color: #f67366; font-weight: 300">Ship</span>Up
+            </h1>
+            <p>
+              ShipUp delivers an unparalleled customer service through
+              dedicated customer teams, engaged people working in an agile
+              culture, and a global footprint
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <!--Column1-->
+          <div class="footer-pad">
+            <h4>Explore</h4>
+            <ul class="list-unstyled">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our warehoueses</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">News and Media</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <!--Column1-->
+          <div class="footer-pad">
+            <h4>Legal</h4>
+            <ul class="list-unstyled">
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-pads">
+            <h4>social media</h4>
+            <ul class="social-network social-circle">
+              <li>
+                <a href="#" class="icoFacebook" title="Facebook"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="icoLinkedin" title="Linkedin"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="icoFacebook" title="Facebook"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="icoLinkedin" title="Linkedin"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 copy">
+          <h1 class="text-center">
+            <span style="font-weight: 300; text-align: center">Ship</span
+            ><span style="color: #f67366">Up</span
+            ><span style="color: #fff">.ng</span>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--Footer section end-->
+
+
+<style>
+  /*FOOTER*/
+
+body {
+  font-family: lato;
+}
+
+/*Header CSS`*/
+header {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 1px 6px 0 rgba(214, 220, 239, 1);
+  top: 0px;
+  background-color: #fff;
+  position: sticky;
+  z-index: 40;
+  height: auto;
+}
+
+.container {
+    width: 100%;
+  }
+  .logo a {
+    color: #000;
+    text-decoration: none;
+  }
+  .main-menu .nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .main-menu .nav li {
+    display: inline-block;
+    position: relative;
+  }
+  .main-menu .nav li a {
+    display: block;
+    padding: 10px 00px;
+    color: #000;
+    text-decoration: none;
+  }
+  .main-menu .nav li:hover ul {
+    display: block;
+  }
+  .main-menu .nav li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+  }
+  .main-menu .nav li ul li {
+    display: block;
+  }
+  .main-menu .nav li ul li a {
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+  }
+
+.logo {
+  padding: 23px 0px;
+}
+
+.logo a {
+  color: #141414;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.8px;
+  text-align: left;
+}
+
+.mob-menu {
+  display: none;
+}
+
+.main-menu {
+  margin: 15px 0px;
+  float: right;
+}
+
+.main-menu ul.nav {
+  float: left;
+  margin-right: 20px;
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  
+}
+
+.nav li:first-child {
+  margin-left: 0px;
+}
+
+.main-menu ul {
+  display: inline;
+}
+
+.main-menu ul li {
+  position: relative;
+  display: inline-block;
+  margin: 0px 12px;
+}
+
+.main-menu ul li a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  text-align: left;
+  color: #141414;
+  display: block;
+  text-decoration: none;
+}
+
+.main-menu ul.right-nav {
+  padding-left: 0px;
+}
+
+.main-menu ul.right-nav li a {
+  width: 150px;
+  height: 45px;
+  border-radius: 4px;
+  background-color: #fff;
+  text-align: center;
+  color: #2c2d5b;
+  border: solid 1px #2c2d5b;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.main-menu ul.right-nav li:last-child {
+  margin-right: 0px;
+}
+
+.main-menu ul.right-nav li.active a {
+  background-color: #2c2d5b;
+  color: #fff;
+}
+
+@media (max-width: 1000px) {
+  .logo {
+    display: inline-block;
+    width: 78%;
+    padding: 10px 10px 10px 0px;
+  }
+
+  .mob-menu {
+    display: inline-block;
+    width: 20%;
+  }
+
+  .mob-menu span {
+    border: solid 2px #3a76cb;
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+    padding: 2px 6px;
+    width: 50px;
+    color: #3a76cb;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .main-menu {
+    margin: 0px 0px 20px 0px;
+    float: left;
+    background-color: #f1f1f1;
+    width: 100%;
+    display: none;
+  }
+
+  .main-menu ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+
+  .main-menu ul.right-nav {
+    text-align: center;
+    margin-top: 6px;
+  }
+
+  ul.right-nav {
+    margin-bottom: 10px;
+  }
+
+  .main-menu {
+    margin: 0px 0px 20px 0px;
+    float: left;
+    background-color: #f1f1f1;
+    width: 100%;
+    display: none;
+  }
+
+  .main-menu ul li {
+    display: block;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .nav li:first-child {
+    margin-left: 0px;
+  }
+
+  .main-menu ul li a {
+    padding: 10px 15px;
+    display: block;
+    border-bottom: solid 1px #e2e4e6;
+    text-align: center;
+  }
+
+  .main-menu ul.right-nav li {
+    margin-left: 0px;
+    margin-right: 30px;
+    display: inline-block;
+    width: 150px;
+  }
+
+  .main-menu ul.right-nav li a {
+    font-size: 18px !important;
+  }
+}
+
+/*Interoduction section CSS */
+
+.sec-title {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 60px;
+}
+
+.sec-title .title {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 24px;
+  color: #00aeef;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.sec-title h2 {
+  position: relative;
+  display: block;
+  font-size: 35px;
+  line-height: 1.28em;
+  color: #141414;
+  font-weight: 600;
+}
+
+.sec-title .text {
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+  color: #848484;
+  font-weight: 400;
+  margin-top: 35px;
+}
+
+.sec-title.light h2 {
+  color: #ffffff;
+}
+
+.sec-title.text-center h2:before {
+  left: 50%;
+  margin-left: -25px;
+}
+
+.list-style-one {
+  position: relative;
+}
+
+.list-style-one li {
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+  color: #222222;
+  font-weight: 400;
+  padding-left: 35px;
+  margin-bottom: 12px;
+}
+
+
+.list-style-one li:before {
+  content: "\f058";
+  position: absolute;
+  left: 0;
+  top: 0px;
+  display: block;
+  font-size: 18px;
+  padding: 0px;
+  color: #ff2222;
+  font-weight: 600;
+  -moz-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1.6;
+  font-family: "Font Awesome 5 Free";
+}
+
+.list-style-one li a:hover {
+  color: #44bce2;
+}
+
+.btn-style-one {
+  position: relative;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 30px;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 10px 30px;
+  font-weight: 600;
+  overflow: hidden;
+  letter-spacing: 0.02em;
+  background-color: #2c2d5b;
+}
+.btn-style-two {
+    margin-left: 1rem;
+    position: relative;
+    display: inline-block;
+    padding: 18px 20px !important;
+    overflow: hidden;
+    background-color: #fff;
+    gap: 0px;
+    border-radius: 100px;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+.btn-style-three {
+  position: relative;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 30px;
+  color: #2c2d5b;
+  padding: 10px 10px !important;
+  font-weight: 600;
+  overflow: hidden;
+  letter-spacing: 0.02em;
+  
+}
+
+.btn-style-one:hover {
+    text-decoration: none;
+  color: #ffffff;
+}
+
+.about-section {
+  position: relative;
+  padding: 120px 0 70px;
+}
+
+.about-section .sec-title {
+  margin-bottom: 25px;
+}
+
+.about-section .content-column {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.about-section .content-column .inner-column {
+  position: relative;
+  padding-left: 30px;
+}
+
+.about-section .text {
+    margin-bottom: 20px;
+    color: #333333;    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
+.about-section .list-style-one {
+  margin-bottom: 45px;
+}
+
+.about-section .btn-box {
+  position: relative;
+}
+
+.about-section .btn-box a {
+  padding: 15px 30px;
+}
+
+.about-section .image-column {
+  position: relative;
+}
+
+.about-section .image-column .text-layer {
+  position: absolute;
+  right: -110px;
+  top: 50%;
+  font-size: 325px;
+  line-height: 1em;
+  color: #ffffff;
+  margin-top: -175px;
+  font-weight: 500;
+}
+
+.about-section .image-column .inner-column {
+  position: relative;
+  padding-bottom: 0px;
+}
+
+.about-section .image-column .inner-column .author-desc {
+  position: absolute;
+  bottom: 16px;
+  z-index: 1;
+  background: orange;
+  padding: 10px 15px;
+  left: 96px;
+  width: calc(100% - 152px);
+  border-radius: 50px;
+}
+
+.about-section .image-column .inner-column .author-desc h2 {
+  font-size: 21px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+
+.about-section .image-column .inner-column .author-desc span {
+  font-size: 16px;
+  letter-spacing: 6px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  font-weight: 400;
+}
+
+.about-section .image-column .image-1 {
+  position: relative;
+}
+
+.about-section .image-column .image-2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.row.d-flex {
+    flex-direction: row-reverse;
+}
+
+.about-section .image-column .image-2 img,
+.about-section .image-column .image-1 img {
+  /* box-shadow: 0 30px 50px rgba(8, 13, 62, 0.15);
+  border-radius: 46px; */
+  width: 100%;
+}
+
+.about-section .image-column .video-link {
+  position: absolute;
+  left: 70px;
+  top: 170px;
+}
+
+.about-section .image-column .video-link .link {
+  position: relative;
+  display: block;
+  font-size: 22px;
+  color: #191e34;
+  font-weight: 400;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 30px 50px rgba(8, 13, 62, 0.15);
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.about-section .image-column .video-link .link:hover {
+  background-color: #191e34;
+  color: #fff;
+}
+
+.content-column {
+    position: relative;
+    /* Other styles for the column */
+}
+
+.content-column:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 40%;
+    height: 380px;
+    background-image: url('Group\ 7031.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    transform: rotate(5deg);
+
+}
+
+.content-column:before {
+    left: 0;
+}
+
+.content-column:after {
+    right: 0;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+
+/*Form CSS*/
+
+.form-section {
+    padding-bottom: 5rem;
+}
+
+.form-section .container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2rem 0rem;
+    margin: auto;
+}
+
+fieldset{
+    border:1px solid #979797;
+    padding: 1rem;
+    border-radius: 15px;
+    margin: 1rem;
+}
+
+button.btn.btn-primary {
+    padding: 1.4rem 4rem;
+    border-radius: 15px;
+    background: #2c2d5b;
+    
+}
+
+input {
+    border: none;
+}
+
+legend {
+    display: block;
+    width: 25%;
+    max-width: 100%;
+    margin-bottom: .5rem;
+    line-height: inherit;
+    color: #979797;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15.4px;
+}
+
+/*Footer CSS*/
+
+footer {
+  background: #2c2d5b;
+  color: white;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1.5px solid #e5e5e5;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+footer h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: left;
+}
+
+footer h1.text-center {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+footer p {
+  font-weight: 400;
+  line-height: 21px;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-pad {
+  padding-left: 3rem;
+  padding-top: 1.3rem;
+}
+
+.footer-pads {
+  padding-top: 1.3rem;
+}
+
+i.fa {
+  color: #2c2d5b;
+  font-size: 18px;
+}
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+.social-circle i {
+  color: #2c2d5b;
+}
+
+.social-network a {
+  background-color: #f9f9f9;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .footer-pad {
+    padding-left: 0rem;
+    padding-top: 1.3rem;
+}
+
+.footer-pads {
+    padding-top: 1.3rem;
+    padding-bottom: 2rem;
+}
+
+}
+
+</style>
+</body>
+</html>
